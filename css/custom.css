@@ -1,0 +1,119 @@
+/*#lits-logo {*/
+    /*position: absolute;*/
+    /*right: 15px;*/
+    /*top:15px;*/
+    /*max-width:20%;*/
+/*}*/
+
+/*#lits-logo img {*/
+    /*height: auto;*/
+    /*width: auto;*/
+/*}*/
+
+/*.source-code-editor {*/
+    /*max-width: 30%;*/
+    /*display: inline-block;*/
+/*}*/
+/*.source-code-editor .editor-screen {*/
+    /*margin-bottom: 5px;*/
+    /*max-width: 260px;*/
+    /*border: 2px solid #333;*/
+/*}*/
+ /*.editor-screen:hover {*/
+     /*border-color: #c0a86e;*/
+ /*}*/
+
+ /*.source-code-editor span sup {*/
+     /*color: black;*/
+     /*font-size: 50%;*/
+ /*}*/
+ /*.package-manager img.package-manager-logo {*/
+     /*border: 0px;*/
+ /*}*/
+ /*#sandboxes img {*/
+     /*border: 2px solid black;*/
+ /*}*/
+/*#sandboxes ul {*/
+    /*list-style: none;*/
+    /*margin: 0px;*/
+/*}*/
+ /*#sandboxes li {*/
+     /*width: 30%;*/
+     /*float: left;*/
+     /*margin: 0 1.5%;*/
+     /*text-align: center;*/
+ /*}*/
+
+ /*#extensions img {*/
+     /*border: 0px;*/
+ /*}*/
+
+ /*#extensions ul {*/
+     /*list-style: none;*/
+     /*margin: 0px;*/
+ /*}*/
+
+/*#extensions li {*/
+    /*width: 45%;*/
+    /*float: left;*/
+    /*margin: 0 1.5%;*/
+    /*text-align: center;*/
+/*}*/
+/*#extensions li p {*/
+   /*font-size: 60%;*/
+/*}*/
+/*#github img {*/
+    /*border: none;*/
+    /*box-shadow: none;*/
+    /*max-width: 50%;*/
+    /*float: left;*/
+/*}*/
+/*#github ul {*/
+    /*margin-top: 30px;*/
+    /*width: 45%;*/
+    /*float: right;*/
+    /*text-decoration: none;*/
+/*}*/
+/*#github li {*/
+    /*font-style: italic;*/
+    /*margin-bottom: 30px;*/
+    /*font-size: 60%;*/
+/*}*/
+/*#how-internet-works img {*/
+    /*border: none;*/
+    /*box-shadow: none;*/
+/*}*/
+
+/*#html-section ul {*/
+    /*!*list-style: none;*!*/
+ /*}*/
+
+/*#course-plan ul li {*/
+    /*margin-top: 10px;*/
+/*}*/
+
+/*#html-section-plan .points {*/
+
+/*}*/
+
+/*header ul {*/
+    /*width: 90%;*/
+    /*float: left;*/
+    /*margin-left: 0px!important;*/
+    /*background: white;*/
+/*}*/
+/*header ul li {*/
+    /*display: block;*/
+    /*list-style: none;*/
+    /*float: left;*/
+    /*width: 16%;*/
+    /*background: green;*/
+    /*margin: 1%!important;*/
+    /*text-align: center;*/
+    /*height: 2em;*/
+/*}*/
+/*!*header {*!*/
+    /*!*background: url('../img/course-overview/HTML5_CSS_JavaScript.png') no-repeat;*!*/
+    /*!*background-size: auto 100px;*!*/
+    /*!*height: 200px;*!*/
+/*!*}*!*/

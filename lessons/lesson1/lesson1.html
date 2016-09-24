@@ -1,0 +1,357 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Web UI Lesson 1</title>
+    <link rel="stylesheet" href="../../css/reveal.css">
+    <link rel="stylesheet" href="../../css/theme/beige.css">
+
+    <link rel="stylesheet" href="../../lib/css/zenburn.css">
+    <link rel="stylesheet" href="../../css/custom.css">
+
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? '../../css/print/pdf.css' : '../../css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+</head>
+<body>
+<div class="reveal">
+    <div class="slides">
+        <section id="course-introduction">
+            <article>
+                <h3>Lesson 1: Course introduction</h3>
+                <p>
+                    Table of content
+                </p>
+                <ul>
+                    <li>Tools for front-end developers</li>
+                    <li>Resources</li>
+                    <li>A bit of history</li>
+                    <li>Current situation</li>
+                    <li>Browsers, engines and platform</li>
+                    <li>Technical restrictions of web development</li>
+                    <li>Home task</li>
+                </ul>
+            </article>
+        </section>
+        <section>
+            <section id="source-code-editors">
+                <div class="figures-container">
+                    <figure>
+                        <a href="https://atom.io/">
+                            <img src="img/Atom.png">
+                            <figcaption>Atom</figcaption>
+                        </a>
+                    </figure>
+                    <figure>
+                        <a href="https://www.sublimetext.com/">
+                            <img src="img/Sublime-Text.png">
+                            <figcaption>Sublime Text</figcaption>
+                        </a>
+                    </figure>
+                </div>
+                <h3>Source code editors</h3>
+                <div class="figures-container">
+                    <figure>
+                        <a href="https://notepad-plus-plus.org">
+                            <figcaption>Notepad++</figcaption>
+                            <img src="img/Notepad-Plus-Plus.png">
+                        </a>
+                    </figure>
+                    <figure>
+                        <a href="https://www.jetbrains.com/webstorm/">
+                            <figcaption>WebStorm</figcaption>
+                            <img src="img/web-storm.png">
+                        </a>
+                    </figure>
+                </div>
+            </section>
+            <section id="node-and-npm">
+                <h3>Node and NPM</h3>
+                <div class="figures-container">
+                    <figure>
+                        <a href="https://docs.npmjs.com/getting-started/what-is-npm">
+                            <div class="image-wrap">
+                                <img src="img/Npm-logo.png">
+                            </div>
+                        </a>
+                        <figcaption>Node Package Manager</figcaption>
+                    </figure>
+                    <figure>
+                        <a href="https://nodejs.org/en/">
+                            <div class="image-wrap">
+                                <img src="img/Node.js_logo.png">
+                            </div>
+                        </a>
+                        <figcaption>Node</figcaption>
+                    </figure>
+                </div>
+            </section>
+            <section id="sandboxes">
+                <h3>JavaScript sandboxes</h3>
+                <div class="figures-container">
+                    <figure>
+                        <a href="https://jsbin.com/">
+                            <img src="img/js_bin.png">
+                            <figcaption>JS bin</figcaption>
+                        </a>
+                    </figure>
+                    <figure>
+                        <a href="https://jsfiddle.net/">
+                            <img src="img/js_fiddle.png">
+                            <figcaption>JS fiddle</figcaption>
+                        </a>
+                    </figure>
+                    <figure>
+                        <a href="http://codepen.io/">
+                            <img src="img/codepen.png">
+                            <figcaption>CodePen</figcaption>
+                        </a>
+                    </figure>
+                </div>
+            </section>
+            <section id="extensions">
+                <h3>Chrome extensions</h3>
+                <div class="figures-container">
+                    <figure>
+                        <a href="https://chrome.google.com/webstore/detail/eye-dropper/hmdcmlfkchdmnmnmheododdhjedfccka">
+                            <img src="img/eye_dropper.png">
+                            <figcaption>Eye dropper</figcaption>
+                        </a>
+                        <p>open source extension for Google Chrome which allows you to pick colors from various
+                            sources</p>
+                    </figure>
+                    <figure>
+                        <a href="https://chrome.google.com/webstore/detail/page-ruler/jlpkojjdgbllmedoapgfodplfhcbnbpn?hl=uk">
+                            <img src="img/page_ruler.png">
+                            <figcaption>Page ruler</figcaption>
+                        </a>
+                        <p>lets your draw out a ruler to any page and displays the width, height and position of it</p>
+                    </figure>
+                </div>
+            </section>
+            <section id="tools">
+                <h3>Other useful tools</h3>
+                <div class="figures-container">
+                    <figure>
+                        <a href="https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop">
+                            <img src="img/postman.png">
+                            <figcaption>Postman</figcaption>
+                        </a>
+                    </figure>
+                    <figure>
+                        <a href="https://conemu.github.io/">
+                            <img src="img/conemu.png">
+                            <figcaption>ConEmu</figcaption>
+                        </a>
+                    </figure>
+                    <figure>
+                        <a href="http://emmet.io/">
+                            <img src="img/emmet.png">
+                            <figcaption>Emmet</figcaption>
+                        </a>
+                    </figure>
+                </div>
+            </section>
+            <section id="caniuse">
+                <p class="notes"><a href="http://caniuse.com/">caniuse.com</a> - browser support tables for modern web technologies</p>
+                <iframe data-src="http://caniuse.com/#home" width="1200" height="600"
+                        frameborder="0" marginwidth="0" marginheight="0" scrolling="no"
+                        allowfullscreen></iframe>
+            </section>
+            <section id="github">
+                <h3>Git & <a href="https://github.com/">GitHub</a></h3>
+                <div class="main-container">
+                    <div class="image-wrap">
+                        <img src="img/github.png">
+                    </div>
+                    <ul>
+                        <li>Home for you code</li>
+                        <li>Allow you to explore other projects</li>
+                        <li>GitHub Pages - hosted static websites directly from you repository</li>
+                        <li><a href="https://git-scm.com/">Git</a> - most powerful and flexible source control system</li>
+                        <li><a href="https://githowto.com/ru">Git how to link</a></li>
+                    </ul>
+                </div>
+            </section>
+        </section>
+        <section>
+            <section id="specifications">
+                <h3>Specifications</h3>
+                <ul>
+                    <li><a href="https://developer.mozilla.org/ru/">MDN: Mozilla developers network</a></li>
+                    <li><a href="https://html.spec.whatwg.org/">html.spec.whatwg.org/</a></li>
+                    <li><a href="https://www.w3.org/">w3c</a></li>
+                </ul>
+            </section>
+            <section id="resources-books">
+                <h3>Books</h3>
+                <div class="figures-container">
+                    <figure>
+                        <a href="http://www.books.ru/books/javascript-podrobnoe-rukovodstvo-6-e-izdanie-1814274/">
+                            <img src="img/flanagan.jpg">
+                        </a>
+                        <figcaption>"JavaScript: The Definitive Guide" <br> by David Flanagan</figcaption>
+                    </figure>
+                    <figure>
+                        <a href="https://github.com/getify/You-Dont-Know-JS">
+                            <img src="img/you_dont_know_js.png">
+                        </a>
+                        <figcaption>"You Don't Know JS" (book series)<br> by Kyle Simpson</figcaption>
+                    </figure>
+                    <figure>
+                        <a href="https://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742">
+                            <img src="img/js_good_parts.jpg">
+                        </a>
+                        <figcaption>"JavaScript: The Good Parts" <br> by Douglas Crockford</figcaption>
+                    </figure>
+                    <figure>
+                        <a href="https://www.ozon.ru/context/detail/id/5647176/">
+                            <img src="img/makfarland.jpg">
+                        </a>
+                        <figcaption>"CSS3: The Missing Manual" <br> by David Sawyer McFarland</figcaption>
+                    </figure>
+                </div>
+            </section>
+            <section id="podcasts">
+                <h3>Podcasts</h3>
+                <ul>
+                    <li><a href="https://soundcloud.com/web-standards">Web standarts</a></li>
+                    <li><a href="https://radiojs.ru/">RadioJS</a></li>
+                    <li><a href="http://frontflip.me/">Frontflip</a></li>
+                    <li><a href="https://sdcast.ksdaemon.ru/">SDCast</a></li>
+                </ul>
+            </section>
+            <section id="blogs">
+                <h3>Useful blogs</h3>
+                <ul>
+                    <li><a href="http://www.2ality.com/">2ality.com</a></li>
+                    <li><a href="http://www.html5rocks.com/en/">HTML5Rocks</a></li>
+                    <li><a href="https://www.smashingmagazine.com/">Smashing magazine</a></li>
+                    <li><a href="https://www.sitepoint.com/">Sitepoint</a></li>
+                    <li><a href="https://medium.com/">Medium</a></li>
+                    <li><a href="https://learn.javascript.ru/">learn.javascript.ru</a></li>
+                </ul>
+            </section>
+        </section>
+        <section>
+            <section id="web-evolution" data-background-color="#FFFFFF">
+                <a href="http://www.evolutionoftheweb.com/?hl=en">Evolution of the web</a>
+                <iframe data-src="http://www.evolutionoftheweb.com/#/evolution/day/?hl=en" width="1200" height="600"
+                        frameborder="0" marginwidth="0" marginheight="0" scrolling="no"
+                        allowfullscreen></iframe>
+            </section>
+        </section>
+        <section id="current-situation">
+            <h3>Everything is web based</h3>
+            <div class="flex-container">
+                <ul>
+                    <li>Desktop</li>
+                    <li>Mobile</li>
+                    <li>TV</li>
+                    <li>Glasses</li>
+                    <li>Watches</li>
+                    <li>Cars</li>
+                    <li>Homes</li>
+                </ul>
+            </div>
+        </section>
+        <section>
+        <section id="desktop-browsers-usages">
+            <h3>Statistic</h3>
+            <figure>
+                <img src="img/desktop_browsers_stats.png">
+            </figure>
+        </section>
+        <section id="mobile-browsers-usages">
+            <h3>Statistic</h3>
+            <figure>
+                <img src="img/mobile_browsers_stats.png">
+            </figure>
+        </section>
+            <section id="mobile-dynamics">
+                <h3>Statistic</h3>
+                <figure>
+                    <img src="img/mobile-dynamics.png">
+                </figure>
+            </section>
+        </section>
+        <section id="restrictions">
+            <h3>Technical restrictions of web development</h3>
+            <div class="flex-container">
+                <div class="column">
+                    <h3>Desktop</h3>
+                    <ul>
+                        <li>wide screen</li>
+                        <li>mouse/tachpad</li>
+                        <li>keyboard</li>
+                        <li>“work” context</li>
+                        <li>fast connection</li>
+                        <li>multitasking</li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h3>Tablet</h3>
+                    <ul>
+                        <li>smaller viewport</li>
+                        <li>fingers as the primary</li>
+                        <li>input device</li>
+                        <li>optional keyboard</li>
+                        <li>“relax” context</li>
+                        <li>mixed connection</li>
+                        <li>single task</li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h3>Phone</h3>
+                    <ul>
+                        <li>tiny viewport</li>
+                        <li>finger as the only</li>
+                        <li>input device</li>
+                        <li>'hurry' context</li>
+                        <li>slow connection</li>
+                        <li>single task</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="home-task">
+            <h3>Home task</h3>
+            <ul>
+                <li>Everyone will need to create account on <a href="https://github.com/">github</a></li>
+                <li><a href="https://www.youtube.com/watch?v=rDRr_pUl3i0">Watch Allen’s presentation</a> and choose what hat you want to wear more than others</li>
+                <li>Create repository for lecture 1 push there a text file with your answer</li>
+                <li>Try this <a href="https://githowto.com/ru">git how to</a></li>
+            </ul>
+        </section>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.1.0.min.js"
+        integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+<script src="../../lib/js/head.min.js"></script>
+<script src="../../js/reveal.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.js"></script>
+<script src="lesson1.js"></script>
+
+<script>
+    Reveal.initialize({
+        history: true,
+        dependencies: [
+            {src: '../../plugin/markdown/marked.js'},
+            {src: '../../plugin/markdown/markdown.js'},
+            {src: '../../plugin/notes/notes.js', async: true},
+            {
+                src: '../../plugin/highlight/highlight.js', async: true, callback: function () {
+                hljs.initHighlightingOnLoad();
+            }
+            }
+        ]
+    });
+</script>
+</body>
+</html>

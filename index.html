@@ -1,0 +1,329 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Web UI</title>
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/beige.css">
+
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+
+</head>
+<body>
+<div class="reveal">
+    <div class="slides">
+            <section id="course-plan">
+                <h1>Web UI</h1>
+                <article>
+                    <h3>High level course plan</h3>
+                    <ul>
+                        <li><a href="#/course-introduction">Introduction</a></li>
+                        <li><a href="#/html-section-plan">HTML and markups</a></li>
+                        <li><a href="#/css-section-plan">CSS and layouts</a></li>
+                        <li><a href="#/js-section-plan">JavaScript basic</a></li>
+                        <li><a href="#/js-client-section-plan">JavaScript in browser</a></li>
+                    </ul>
+                </article>
+            </section>
+            <section id="course-introduction">
+                <article>
+                    <h3>Lesson 1: Course introduction</h3>
+                    <p>
+                        Table of content
+                    </p>
+                    <ul>
+                        <li>A bit of history</li>
+                        <li>Current situation</li>
+                        <li>Browsers, engines and platform</li>
+                        <li>Technical restrictions of web development</li>
+                        <li>Tools</li>
+                        <li>Resources</li>
+                        <li>Home task</li>
+                    </ul>
+                    <p style="text-align: right">
+                        <a href="lessons/lesson1/lesson1.html">Go to slides</a>
+                    </p>
+                </article>
+            </section>
+            <section>
+                <section id="html-section-plan">
+                    <article>
+                        <h3>Lessons 2-3: HTML section</h3>
+                        <div class="points">
+                            <p>Key points:</p>
+                            <ul>
+                                <li>Markup languages</li>
+                                <li>HTML Specification</li>
+                                <li>Tags, Elements, Attributes</li>
+                                <li>Documents, client/server side rendering</li>
+                                <li>Semantic and accessibility</li>
+                            </ul>
+                        </div>
+                    </article>
+                </section>
+                <section id="html-section-lesson1">
+                    <article>
+                        <h3>Lesson 2</h3>
+                        <ul>
+                            <li>Markups history and types: HTML vs XML</li>
+                            <li>HTML document structure, HTML syntax</li>
+                            <li>Applications grows up, HTML5</li>
+                            <li>Lets look into specification</li>
+                            <li>Types of elements, attributes</li>
+                            <li>Lets run site and inspect this</li>
+                            <li>Overview of meta-tags</li>
+                            <li>Overview of structural tags</li>
+                        </ul>
+                    </article>
+                </section>
+                <section id="html-section-lesson2">
+                    <article>
+                        <h3>Lesson 3</h3>
+                        <ul>
+                            <li>Scripts and styles embedding</li>
+                            <li>Resource loading, page lifecycle</li>
+                            <li>Semantic and accessibility</li>
+                        </ul>
+                    </article>
+                </section>
+            </section>
+            <section>
+                <section id="css-section-plan">
+                    <h3>Lessons 4-6: CSS section</h3>
+                    <div class="points">
+                        <p>Section key points:</p>
+                        <ul>
+                            <li>CSS specifications and trendings</li>
+                            <li>CSS syntax, units, properties</li>
+                            <li>Page layout: tables, floats, flexbox, grids</li>
+                            <li>Documents, client/server side rendering</li>
+                            <li>Practice, practice, practice</li>
+                        </ul>
+                    </div>
+                </section>
+                <section id="css-section-lesson1">
+                    <h3>Lesson 4</h3>
+                    <div class="points">
+                        <p>Lesson key points:</p>
+                        <ul>
+                            <li>CSS specifications evolution</li>
+                            <li>CSS syntax, rules, properties, selectors, values</li>
+                            <li>Advanced selectors, conflicts and specificity</li>
+                            <li>Units</li>
+                            <li>Referencing</li>
+                            <li>Flags and vendors prefixes</li>
+                            <li>Decorative properties</li>
+                        </ul>
+                    </div>
+                </section>
+                <section id="css-section-lesson2">
+                    <h3>Lesson 5</h3>
+                    <div class="points">
+                        <p>Lesson key points:</p>
+                        <ul>
+                            <li>Page layout</li>
+                            <li>Box model</li>
+                            <li>Positioning</li>
+                            <li>Layouts evolution</li>
+                        </ul>
+                    </div>
+                </section>
+                <section id="css-section-lesson3">
+                    <h3>Lesson 6</h3>
+                    <div class="points">
+                        <p>Lesson key points:</p>
+                        <ul>
+                            <li>Build own grid system</li>
+                            <li>Flexbox</li>
+                        </ul>
+                    </div>
+                </section>
+            </section>
+            <section>
+                <section id="js-section-plan">
+                    <h3>Lessons 7-12: JavaScript section</h3>
+                    <div class="points">
+                        <p>Section key points:</p>
+                        <ul>
+                            <li>Syntax</li>
+                            <li>Build-ins</li>
+                            <li>Classes, objects, prototypes</li>
+                            <li>Modules</li>
+                            <li>Functional programming</li>
+                        </ul>
+                    </div>
+                </section>
+                <section id="js-section-lesson1">
+                    <h3>Lesson 7</h3>
+                    <div class="points">
+                        <p>Lesson key points:</p>
+                        <ul>
+                            <li>Referencing</li>
+                            <li>Data types</li>
+                            <li>Conditions, operators, expressions</li>
+                        </ul>
+                    </div>
+                </section>
+                <section id="js-section-lesson2">
+                    <h3>Lesson 8</h3>
+                    <div class="points">
+                        <p>Lesson key points:</p>
+                        <ul>
+                            <li>Objects, properties, build-ins</li>
+
+                        </ul>
+                    </div>
+                </section>
+                <section id="js-section-lesson3">
+                    <h3>Lesson 9</h3>
+                    <p>Lesson key points:</p>
+                    <ul>
+                        <li>Prototypes</li>
+                    </ul>
+                </section>
+                <section id="js-section-lesson4">
+                    <h3>Lesson 10</h3>
+                    <p>Lesson key points:</p>
+                    <ul>
+                        <li>Arrays, dates</li>
+                        <li>Functions</li>
+                    </ul>
+                </section>
+                <section id="js-section-lesson5">
+                    <h3>Lesson 11</h3>
+                    <p>Lesson key points:</p>
+                    <ul>
+                        <li>Classes and modules</li>
+                        <li>AMD, CommonJS, UMD</li>
+                    </ul>
+                </section>
+                <section id="js-section-lesson6">
+                    <h3>Lesson 12</h3>
+                    <p>Lesson key points:</p>
+                    <ul>
+                        <li>Functional programming</li>
+                    </ul>
+                </section>
+            </section>
+            <section>
+                <section id="js-client-section-plan">
+                    <h3>Lessons 13-19</h3>
+                    <p>Section key points:</p>
+                    <ul>
+                        <li>Specifications</li>
+                        <li>DOM, elements, operations</li>
+                        <li>BOM, browser APIs</li>
+                        <li>AJAX, server side communication</li>
+                        <li>JS execution runtime</li>
+                    </ul>
+                </section>
+                <section id="js-client-section-lesson1">
+                    <h3>Lesson 13</h3>
+                    <p>Lesson key points:</p>
+                    <ul>
+                        <li>DOM Specifications</li>
+                        <li>DOM, elements, operations</li>
+                        <li>Page rendering</li>
+                    </ul>
+                </section>
+                <section id="js-client-section-lesson2">
+                    <h3>Lesson 14</h3>
+                    <p>Lesson key points:</p>
+                    <ul>
+                        <li>Events</li>
+                    </ul>
+                </section>
+                <section id="js-client-section-lesson3">
+                    <h3>Lesson 15</h3>
+                    <p>Lesson key points:</p>
+                    <ul>
+                        <li>Forms, controls, buttons</li>
+                        <li>Navigation and history</li>
+                    </ul>
+                </section>
+                <section id="js-client-section-lesson4">
+                    <h3>Lesson 16</h3>
+                    <p>Lesson key points:</p>
+                    <ul>
+                        <li>HTTP protocol</li>
+                        <li>REST</li>
+                        <li>XML/JSON</li>
+                    </ul>
+
+                </section>
+                <section id="js-client-section-lesson5">
+                    <h3>Lesson 17</h3>
+                    <p>Lesson key points:</p>
+                    <ul>
+                        <li>AJAX, XHR</li>
+                        <li>Fetch</li>
+                    </ul>
+                </section>
+                <section id="js-client-section-lesson6">
+                    <h3>Lesson 18</h3>
+                    <p>Lesson key points:</p>
+                    <ul>
+                        <li>JSONP, CORS</li>
+                        <li>Promises</li>
+                    </ul>
+                </section>
+                <section id="js-client-section-lesson7">
+                    <h3>Lesson 19</h3>
+                    <p>Lesson key points:</p>
+                    <ul>
+                        <li>JS execution</li>
+                    </ul>
+                </section>
+            </section>
+            <section>
+                <section id="additional">
+                    <h3>Additional section</h3>
+                    <p>Section key points:</p>
+                    <ul>
+                        <li>Storages</li>
+                        <li>iframe</li>
+                        <li>Web components</li>
+                        <li>Animations</li>
+                        <li>CSS Grids</li>
+                        <li>NodeJS</li>
+                        <li>ES2015</li>
+                        <li>Regular Expressions</li>
+                        <li>Popular libraries</li>
+                    </ul>
+                </section>
+            </section>
+    </div>
+</div>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
+
+<script>
+    Reveal.initialize({
+        history: true,
+
+        dependencies: [
+            {src: 'plugin/markdown/marked.js'},
+            {src: 'plugin/markdown/markdown.js'},
+            {src: 'plugin/notes/notes.js', async: true},
+            {
+                src: 'plugin/highlight/highlight.js', async: true, callback: function () {
+                hljs.initHighlightingOnLoad();
+            }
+            }
+        ]
+    });
+</script>
+</body>
+</html>
